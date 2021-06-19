@@ -1,89 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
-    background-color: black;
-    background-size: cover;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+background-color: black;
+background-size: cover;
+color: white;
+font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand{
-    font-size: 200%;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color:#fafafa;
+font-size: 200%;
+letter-spacing: 6px;
+text-transform: uppercase;
+color:#fafafa;
 }
 
 .navbar a{
-    text-transform: uppercase;
-    color:#fafafa;
-    letter-spacing: 3px;
+text-transform: uppercase;
+color:#fafafa;
+letter-spacing: 3px;
 }
 
 .active{
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .jumbotron {
-    color: white;
-    background-color: black;
-    background-image: url("/assets/images/jumbotron.jpg");
-    background-position-y: 110%;
-    background-position-x: center;
-    background-repeat: no-repeat;
+color: white;
+background-color: black;
+background-image: url("/assets/images/jumbotron.jpg");
+background-position-y: 110%;
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.classes-jumbotron {
+color: white;
+background-color: black;
+background-image: url("/assets/images/classes-jumbotron.jpg");
+background-position-y: 110%;
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.jumbotron .container { 
+    position: relative; top: 65%;  
+}
+.classes-jumbotron .classes-jumbotron-container{
+    position: relative; 
+    top: 50%;
+    padding-left: 20%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.reasons-to-join{
     background-size: cover;
-    height: 100vh;
-  }
+    background-color: black;
+}
 
-  .jumbotron .container { 
-      position: relative; top: 65%;  
-    }
-
-   .reasons-to-join{
-       background-size: cover;
-       background-color: black;
-   }
-
-   .get-fit > h2{
-       text-align: center;
-   }
-
-   .get-fitter > h2{
+.get-fit > h2{
     text-align: center;
+}
+
+.get-fitter > h2{
+text-align: center;
 }
 
 .get-fit > p{
-    text-align: center;
+text-align: center;
 }
 
 .get-fitter > p{
-    text-align: center;
+text-align: center;
 }
 
 footer{
-    height: 75px;
-    width: 100%;
+height: 75px;
+width: 100%;
 }
 
 
 
 li .fab{
-    color: white;
-    text-align: center;
-    font-size: 200%;
+color: white;
+text-align: center;
+font-size: 200%;
 }
 
 .social-buttons {
-    text-align: center;
-  }
-  
-  .social-buttons li{
-    display: inline;
-  }
-  
-  .social-buttons i{
-    font: size 200px;%;
-    margin:1%;
-    padding:5%;
-    color:#white;
-  }
+text-align: center;
+}
+
+.social-buttons li{
+display: inline;
+}
+
+.social-buttons i{
+font: size 200px;%;
+margin:1%;
+padding:5%;
+color:#white;
+}
