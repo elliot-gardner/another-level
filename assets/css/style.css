@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.navbar-brand{
+    font-size: 200%;
+    letter-spacing:3px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
