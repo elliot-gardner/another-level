@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+body{
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
 .navbar-brand{
     font-size: 200%;
     letter-spacing: 6px;
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color:#fafafa;
 }
 
 .navbar a{
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color:#fafafa;
     letter-spacing: 3px;
@@ -21,6 +26,7 @@
 
 .jumbotron {
     color: white;
+    background-color: black;
     background-image: url("/assets/images/jumbotron.jpg");
     background-position-y: 110%;
     background-position-x: center;
@@ -30,5 +36,26 @@
   }
 
   .jumbotron .container { 
-      position: relative; top: 75%;  
+      position: relative; top: 65%;  
     }
+
+   .reasons-to-join{
+       background-size: cover;
+       background-color: black;
+   }
+
+   .get-fit > h2{
+       text-align: center;
+   }
+
+   .get-fitter > h2{
+    text-align: center;
+}
+
+.get-fit > p{
+    text-align: center;
+}
+
+.get-fitter > p{
+    text-align: center;
+}
