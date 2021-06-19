@@ -59,3 +59,31 @@ body{
 .get-fitter > p{
     text-align: center;
 }
+
+footer{
+    height: 75px;
+    width: 100%;
+}
+
+
+
+li .fab{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.social-buttons {
+    text-align: center;
+  }
+  
+  .social-buttons li{
+    display: inline;
+  }
+  
+  .social-buttons i{
+    font: size 200px;%;
+    margin:1%;
+    padding:5%;
+    color:#white;
+  }
