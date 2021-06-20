@@ -27,7 +27,7 @@ body{
 .jumbotron {
     color: white;
     background-color: black;
-    background-image: url("/assets/images/jumbotron.jpg");
+    background-image: url("/another-level/assets/images/jumbotron.jpg");
     background-position-y: 110%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body{
 .classes-jumbotron {
     color: white;
     background-color: black;
-    background-image: url("/assets/images/classes-jumbotron.jpg");
+    background-image: url("/another-level/assets/images/classes-jumbotron.jpg");
     background-position-y: 110%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body{
 .classes-jumbotron {
     color: white;
     background-color: black;
-    background-image: url("/assets/images/classes-jumbotron.jpg");
+    background-image: url("/another-level/assets/images/classes-jumbotron.jpg");
     background-position-y: 110%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body{
 .contact-jumbotron {
     color: white;
     background-color: black;
-    background-image: url("/assets/images/contact-jumbotron.jpg");
+    background-image: url("/another-level/assets/images/contact-jumbotron.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
