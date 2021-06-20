@@ -82,6 +82,9 @@ footer{
     width: 100%;
 }
 
+.social-buttons .fab{
+    color: white;
+}
 
 .social-buttons {
     text-align: center;
@@ -92,12 +95,11 @@ footer{
 }
 
 .social-buttons i{
-    font: size 200px;%;
+    font-size: 200%;
     margin:1%;
-    padding:5%;
-    color:#white;
+    padding:5%;    
 }
 
-#table-heading > h2{
-    text-align: center
+body .map{
+    padding: top 10px;
 }
